@@ -23,7 +23,7 @@ export async function fetchAuth(callback) {
 
 // Fetch AAD token API & set token state
 export async function fetchToken(callback) {
-  let apiUrl = "https://purviewaadtoken.azurewebsites.net/api/aad/token?code=WiLM2UVEwDpjyiXG83OEqz6bylS9HJltgpLwigU8DFCbAzFuNXSKRw==";
+  let apiUrl = "/api/aad/token";
   console.log(`### FETCH: GET ${apiUrl}`);
 
   const tokenResponse = await fetch(apiUrl).catch(error => console.error('Error:', error)),

@@ -1,0 +1,27 @@
+/* Copyright (c) Microsoft Corporation.
+   Licensed under the MIT License. */
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0078d4;
+  color: #fff;
+  text-align: center;
+  padding: 0.55em 1em;
+  box-shadow: 0 0.5em 1em 0 rgba(0,0,0,.16);
+}
+
+.header_title {
+  font-weight: 500;
+}
+
+a.header_title,
+a.header_link {
+  color:#fff;
+}
+
+.header_chevron {
+  padding: 0 1em;
+  font-size: 10px;
+}
